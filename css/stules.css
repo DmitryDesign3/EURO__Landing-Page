@@ -1,0 +1,41 @@
+.header {
+
+}
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1110px;
+}
+.header__container-fulle {
+    
+}
+.header__img-icone {
+    width: 12px;
+    height: 16px;
+    padding-right: 12px;
+}
+
+.header__menu-top {
+    display: flex;
+    gap: 65px;
+}
+
+.header__section-left {
+    display: flex;
+    max-width: 200px;
+}
+
+.header__section-center {
+    display: flex;
+}
+
+.header__section-right {
+    display: flex;
+    position: absolute;
+    right: 0;
+}
+
+.header__menu-bottom {
+
+}
