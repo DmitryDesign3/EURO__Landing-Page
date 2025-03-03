@@ -1,41 +1,156 @@
+*,
+* ::before,
+* ::after {
+    box-sizing: border-box;
+}
+body {
+    font-family: "Inter", serif;
+    color: #333333;
+}   
 .header {
 
 }
 
 .container {
-    position: relative;
+    width: 100%;
+    padding: 0 165px;
     margin: 0 auto;
-    max-width: 1110px;
-}
-.header__container-fulle {
+    max-width: 1440px;
     
 }
-.header__img-icone {
-    width: 12px;
-    height: 16px;
+.header__container-fulle {
+    margin-top: 16px;
+    line-height: 120%;
+}
+
+.header__img-icone { 
     padding-right: 12px;
 }
 
+/* TOP NAV START */
+
 .header__menu-top {
     display: flex;
-    gap: 65px;
+    white-space: nowrap;
+    font-size: 14px;
+    
 }
+.header__nav-link {
 
+}
 .header__section-left {
     display: flex;
-    max-width: 200px;
+    
+    
 }
 
 .header__section-center {
     display: flex;
+    padding-left: 64px;
 }
 
 .header__section-right {
     display: flex;
-    position: absolute;
-    right: 0;
+    margin-left: 458px;
 }
 
 .header__menu-bottom {
 
 }
+
+/* TOP NAV FINISH */
+
+/* BOTTOM NAV START */
+.header__menu-bottom {
+    display: flex;  
+    align-items: center;
+    height: 77px;
+    
+}
+.header__logo {
+    margin-right: 117px;
+}
+.header__nav-bottom {
+    font-size: 16px;
+}
+.header__nav-list {
+    display: flex;
+    gap: 46px;
+}
+.header__nav-link {
+}
+.header__menu-btm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    border-radius: 5px;
+    width: 179px;
+    height: 40px;
+    background: #4762ff;
+    margin-left: 134px;
+}
+.header__text-btm {
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+}
+/* BOTTOM NAV FINSH */
+
+/* HEADER FINISH */
+
+/* SECTION MAIN START */
+
+.section__main {
+
+}
+.container {
+    
+}
+.container__content-all {
+    display: flex;
+    margin-right: calc(100% - 100vw);
+}
+.main__content {
+    
+}
+.main__content-text {
+    padding-top: 65px;
+}
+.main__text {
+}
+.main__title-text {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 127%;
+    color: #333;
+    padding-bottom: 16px;
+}
+.main__subtitle-text {
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(51, 51, 51, 0.8);
+    line-height: 127%;
+    max-width: 500px;
+    padding-bottom: 32px;
+}
+.main__btm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    width: 196px;
+    height: 52px;
+    background: #4762ff;
+}
+.main__btm-items {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 167%;
+    text-align: center;
+    color: #fff;
+
+}
+.main__bg-img {
+    padding-top: 22px;
+} 
