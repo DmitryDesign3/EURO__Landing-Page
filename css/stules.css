@@ -234,25 +234,25 @@ imput {
 }
 
 .block__motors-one {
-    background-image: url(./img/motors.png);
+    background-image: url(/img/motors.png);
     background-repeat: no-repeat;
     background-position: right bottom; 
 }
 
 .block__car-two {
-    background-image: url(./img/cars.png);
+    background-image: url(/img/cars.png);
     background-repeat: no-repeat;
     background-position: right bottom; 
 }
 
 .block__music-three {
-    background-image: url(./img/musik.png);
+    background-image: url(/img/musik.png);
     background-repeat: no-repeat;
     background-position: right bottom; 
 }
 
 .block__oil-four {
-    background-image: url(./img/oil.png);
+    background-image: url(/img/oil.png);
     background-repeat: no-repeat;
     background-position: right bottom; 
 }
