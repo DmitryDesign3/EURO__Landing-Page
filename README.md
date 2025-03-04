@@ -22,4 +22,5 @@ Designer > Azhar Israilova
 Developer > Dmitry DS
 
 LICENSES CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+
 Link > https://www.figma.com/community/file/1072779589211538230
