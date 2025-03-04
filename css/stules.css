@@ -233,14 +233,19 @@ imput {
     max-width: 222px;
 }
 
+<<<<<<< HEAD
 /* .block__motors-one {
     background-image: url(../img/motors.png);
+=======
+.block__motors-one {
+    background-image: url(./img/motors.png);
+>>>>>>> 83b25d4cbf91821ed6acf3c4362b104655318352
     background-repeat: no-repeat;
     background-position: right bottom; 
 }
 
 .block__car-two {
-    background-image: url(../img/cars.png);
+    background-image: url(./img/cars.png);
     background-repeat: no-repeat;
     background-position: right bottom; 
 }
@@ -252,7 +257,7 @@ imput {
 }
 
 .block__oil-four {
-    background-image: url(../img/oil.png);
+    background-image: url(/img/oil.png);
     background-repeat: no-repeat;
     background-position: right bottom; 
 } */
@@ -331,7 +336,7 @@ imput {
 /* SELECTION question START*/
 
 .questions {
-    background: url(/img/bg-footer.png) top center no-repeat;
+    background: url(./img/bg-footer.png) top center no-repeat;
     background-size: cover;
 }
 
