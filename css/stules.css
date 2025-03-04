@@ -246,13 +246,13 @@ imput {
 }
 
 .block__music-three {
-    background-image: url(./img/musik.png);
+    background-image: url(/img/musik.png);
     background-repeat: no-repeat;
     background-position: right bottom; 
 }
 
 .block__oil-four {
-    background-image: url(./img/oil.png);
+    background-image: url(/img/oil.png);
     background-repeat: no-repeat;
     background-position: right bottom; 
 }
