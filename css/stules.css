@@ -6,6 +6,7 @@
 body {
     font-family: "Inter", serif;
     color: #333333;
+    background-color: #FFFFFF;
 }   
 .header {
 
@@ -154,3 +155,94 @@ body {
 .main__bg-img {
     padding-top: 22px;
 } 
+
+/* SECTION MAIN FINISH  */
+
+/*  SECTION SERVICES START */
+
+.section__services {
+
+}
+
+.container {
+
+}
+
+.container__text {
+    display: grid;
+    justify-items: center;
+}
+
+.services__title-text {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #333;
+    padding-bottom: 20px;
+}
+
+.services__subtitle-text {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: rgba(51, 51, 51, 0.8);
+    max-width: 540px;
+}
+
+.container__block-all {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding-top: 50px;
+    justify-content: center;
+}
+
+.block__common-class {
+    border-radius: 9px;
+    width: 505px;
+    height: 287px;
+    background: #f4f6fa;
+}
+
+.block__text {
+ padding-left: 25px;
+ padding-top: 25px;
+}
+
+.block__text-title {
+    font-weight: 700;
+    font-size: 24px;
+    color: #333;
+    padding-bottom: 15px;
+}
+
+.block__text-subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(51, 51, 51, 0.8);
+    max-width: 222px;
+}
+
+.block__motors-one {
+    background-image: url(/img/motors.png);
+    background-repeat: no-repeat;
+    background-position: right bottom; 
+}
+
+.block__car-two {
+    background-image: url(/img/cars.png);
+    background-repeat: no-repeat;
+    background-position: right bottom; 
+}
+
+.block__music-three {
+    background-image: url(/img/musik.png);
+    background-repeat: no-repeat;
+    background-position: right bottom; 
+}
+
+.block__oil-four {
+    background-image: url(/img/oil.png);
+    background-repeat: no-repeat;
+    background-position: right bottom; 
+}
