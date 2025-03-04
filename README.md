@@ -5,7 +5,7 @@ Project Features:
 
 Responsive layout for various devices.
 
-Use of modern technologies: [list technologies, e.g., HTML5, CSS3, JavaScript, Flexbox, Grid, etc.].
+Use of modern technologies: [HTML5, CSS3, JavaScript, Flexbox, Grid].
 
 Optimization for fast page loading.
 
