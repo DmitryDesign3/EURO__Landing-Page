@@ -233,7 +233,7 @@ imput {
     max-width: 222px;
 }
 
-.block__motors-one {
+/* .block__motors-one {
     background-image: url(../img/motors.png);
     background-repeat: no-repeat;
     background-position: right bottom; 
@@ -246,7 +246,7 @@ imput {
 }
 
 .block__music-three {
-    background-image: url(../img/musik.png);
+    background-image: url(/img/musik.png);
     background-repeat: no-repeat;
     background-position: right bottom; 
 }
@@ -255,7 +255,7 @@ imput {
     background-image: url(../img/oil.png);
     background-repeat: no-repeat;
     background-position: right bottom; 
-}
+} */
 /* /*  SECTION SERVICES FINISH */
 
 /* SELECTION ABOUT-US START */
