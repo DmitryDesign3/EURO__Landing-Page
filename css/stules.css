@@ -7,10 +7,11 @@
     padding: 0;
     margin: 0;
 }
-body {
+body,html {
     font-family: "Inter", serif;
     color: #333333;
     background-color: #FFFFFF;
+    overflow-x: hidden;
 } 
 
 imput {
@@ -388,14 +389,91 @@ imput {
     font-weight: 600;
     font-size: 16px;
     color: #FFFFFF;
-    -webkit-transition: 0.15slinear;
-    transition: 0.15slinear;
+    -webkit-transition: 0.15 slinear;
+    transition: 0.15 slinear;
 }
 
 .btn-form {
     width: 469px;
     height: 66px;
     margin-top: 37px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer; 
+}
+.btn-form:hover {
+    background-color: #0056b3; /* Новый цвет фона */
+    color: #fff; /* Новый цвет текста (если нужно) */
 }
 /* SELECTION question FINISH*/
-/* SELECTION question FINISH*/
+
+/* SELECTION FOOTER START*/
+
+.footer {
+    background-color: #1A1A1A;
+    height: 391px;
+    margin: 0 auto;
+}
+
+.container {
+
+}
+
+.container__footer-commons {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.footer__logo {
+ padding-right: 57px;
+}
+
+.footer__main-block {
+
+}
+
+.nav__footer {
+
+}
+
+.nav__list-footer {
+
+}
+
+.nav__link-active {
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+    padding-bottom: 15px;
+}
+
+.nav__link-footer {
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    padding-bottom: 8px;
+}
+
+.footer__about-block {
+
+}
+
+.footer__link-block {
+
+}
+.border__line {
+    border: 0.70px solid #474747;
+    width: 1124px;
+    height: 0px;
+    margin-top: 20px;
+}
+.container__footer-bottom {
+    margin-top: 70px;
+}
+.footer__text-bottom {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 200%;
+    color: #d9dbe1;
+}
+/* SELECTION FOOTER FINISH*/
