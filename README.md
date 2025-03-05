@@ -21,9 +21,9 @@ This project is licensed under CC BY 4.0. You are free to use, modify, and distr
 
 
 
-##🖌 Designer > Azhar Israilova
+##🎨 Designer > Azhar Israilova
 
-##⌨️ Developer > Dmitry DS
+##⚙️ Developer > Dmitry DS
 
 LICENSES CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 
